@@ -171,7 +171,7 @@ function Invoke-DownPatch {
     $chunkG11Path = Join-Path $scriptDirectory "chunk\chunkG11.bin"
     Remove-Item -Path $chunkG11Path -Force -ErrorAction SilentlyContinue
 
-    $chunkG11ICEPath = Join-Path $scriptDirectory "ICE\chunk\chunkG11.bin"
+    $chunkG11ICEPath = Join-Path $scriptDirectory "ICE\chunk\cG11.bin"
     Remove-Item -Path $chunkG11ICEPath -Force -ErrorAction SilentlyContinue
 
     $chunkICEPath = Join-Path $scriptDirectory "ICE\chunk\"
